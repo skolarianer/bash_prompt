@@ -1,2 +1,2 @@
 # Set prompt
-export PROMPT="foo"
+export PROMPT="\u@\h"
