@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# don't put duplicate lines or lines starting with space in the history
+HISTCONTROL=ignoreboth
+
 # Load .bash_prompt
 if [ -f ~/.bash_prompt ]; then
         . ~/.bash_prompt
